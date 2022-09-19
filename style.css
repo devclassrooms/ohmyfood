@@ -1,0 +1,207 @@
+/***************************************************************
+|*|**********************************************************|*|
+|*|  Css                                                     |*|
+|*|                        -----------                       |*|
+|*|                      | ## Booki ## |                     |*|
+|*|                        -----------                       |*|
+|*|                                                          |*|
+|*|**********************************************************|*|
+***************************************************************/
+* {
+  font-family: "Roboto", sans-serif;
+  /*font-family: 'Shrikhand', cursive;*/
+}
+
+* {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/*****************************************************************************/
+body {
+  background: white;
+}
+
+/*****************************************************************************/
+header .logo {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 10px 0;
+  box-shadow: 0px 0.5px 30px 1px rgb(184, 184, 184);
+}
+header img {
+  width: 180px;
+}
+header .place {
+  background: rgb(235, 235, 235);
+  margin: 5px 0 0 0;
+  padding: 12px 0 17px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(77, 77, 77);
+}
+header .place p {
+  padding: 0 35px 0 0;
+}
+header .place i {
+  margin: 0 20px 0 0;
+}
+header .place svg {
+  width: 15px;
+  fill: rgb(77, 77, 77);
+}
+
+main .titre__1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0 20px;
+}
+main .titre__1 h1 {
+  padding: 0 60px 0 60px;
+  font-size: 27px;
+  font-weight: 800;
+}
+main .sous__titre__1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0 0 35px 0;
+}
+main .sous__titre__1 p {
+  padding: 0 17px 0 17px;
+  font-size: 19px;
+  color: gray;
+}
+main .buton {
+  display: flex;
+  justify-content: center;
+}
+main .buton .unstyled {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  background-image: linear-gradient(175deg, #FF79DA, #9356DC);
+  box-shadow: 0px 4px 5px 2px rgb(199, 199, 199);
+  border: none;
+  padding: 17px 25px 17px 25px;
+  border-radius: 50px 50px;
+  text-align: center;
+}
+main .buton a:hover {
+  transition: 1000ms;
+  transform: scale(1.05);
+  background-image: linear-gradient(175deg, #9356DC, #FF79DA);
+}
+main .group__section_top {
+  background: rgb(247, 247, 247);
+  padding: 0 0 70px 0;
+}
+main .fonctionnement {
+  padding: 0 0 40px 0;
+}
+main .fonctionnement .fonctionnement__title {
+  padding: 50px 0 30px 20px;
+}
+main .fonctionnement .under__fonctionnement {
+  display: flex;
+  background: rgb(247, 247, 247);
+  border: none;
+  box-shadow: 4px 2px 12px 4px rgb(238, 238, 238);
+  /*justify-content: center;*/
+  align-items: center;
+  margin: 0px 30px 30px 30px;
+  padding: 25px 0px;
+  border-radius: 23px;
+  text-decoration: none;
+  color: black;
+  gap: 20px;
+}
+main .fonctionnement .under__fonctionnement i {
+  width: 20px;
+  min-width: 10px;
+  fill: gray;
+}
+main .fonctionnement a:hover {
+  background: rgba(146, 86, 220, 0.1176470588);
+}
+main .fonctionnement .nbr {
+  border: none;
+  background: #9356DC;
+  color: white;
+  position: relative;
+  right: 15px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  align-items: center;
+}
+main .fonctionnement .text {
+  font-weight: 600;
+  padding: 0 0 0 70px;
+  margin: 0 auto;
+  position: relative;
+  right: 70px;
+}
+main .Restaurants {
+  background: rgb(240, 240, 240);
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 30px 0;
+}
+main .Restaurants h2 {
+  padding: 55px 0 25px 20px;
+}
+main .Restaurants a {
+  display: flex;
+  background: white;
+  text-decoration: none;
+  color: black;
+  margin: 0 20px 30px 20px;
+  border-radius: 20px 20px;
+  max-height: 250px;
+}
+main .Restaurants a:hover {
+  border-radius: 20px 20px;
+  box-shadow: 0 0 10px 2px rgb(142, 142, 142);
+  transition: 800ms;
+  transform: scale(1.02);
+}
+main .Restaurants img {
+  width: 100%;
+  height: 70%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+footer {
+  background: rgb(58, 58, 58);
+  padding: 10px 20px 20px 20px;
+}
+footer a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+footer p {
+  font-size: 17px;
+  padding: 12px 0;
+  font-family: "Shrikhand", cursive;
+}
+footer .footer__title {
+  display: flex;
+  width: 97px;
+}
+footer .footer__link {
+  padding: 3px 0;
+}
+footer .footer__link svg {
+  width: 12px;
+  padding: 0 4px;
+  fill: white;
+}
+
+/*# sourceMappingURL=style.css.map */
