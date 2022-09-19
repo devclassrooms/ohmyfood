@@ -8,6 +8,11 @@
 |*|**********************************************************|*|
 ***************************************************************/
 
+body
+{
+    background: white;
+}
+
 *
 {
     font-family: 'Roboto', sans-serif;
@@ -37,6 +42,7 @@ header
 
 main
 {
+    background: rgb(240, 240, 240);
     img
     {
         display: flex;
@@ -49,7 +55,7 @@ main
         position: relative;
         bottom: 30px;
         padding: 50px 0;
-        background: white;
+        background: rgb(240, 240, 240);
         border-radius: 40px 40px 0 0;
         border: none;
         .group__mid
@@ -76,15 +82,125 @@ main
                 }
             }
         }
+        .entres
+        {
+            display: flex;
+            flex-direction: column;
+            h2
+            {
+                margin: 30px 20px 10px 20px;
+                color: gray;
+                font-weight:400;
+                font-size: 20px;
+            }
+            .entres__group
+            {
+                background: white;
+                margin: 0 20px 15px 20px;
+                padding: 15px 0;
+                border-radius: 15px 15px;
+                text-decoration: none;
+                color: black;
+                h3
+                {
+                    margin: 0 12px;
+                }
+                p
+                {
+                    margin: 0 12px;
+                }
+            }
+        }
+        .plats
+        {
+            display: flex;
+            flex-direction: column;
+            h2
+            {
+                margin: 30px 20px 10px 20px;
+                color: gray;
+                font-weight:400;
+                font-size: 20px;
+            }
+            .plats__group
+            {
+                background: white;
+                margin: 0 20px 15px 20px;
+                padding: 15px 0;
+                border-radius: 15px 15px;
+                text-decoration: none;
+                color: black;
+                h3
+                {
+                    margin: 0 12px;
+                }
+                p
+                {
+                    margin: 0 12px;
+                }
+            }
+        }
+        .desserts
+        {
+            display: flex;
+            flex-direction: column;
+            h2
+            {
+                margin: 30px 20px 10px 20px;
+                color: gray;
+                font-weight:400;
+                font-size: 20px;
+            }
+            .desserts__group
+            {
+                background: white;
+                margin: 0 20px 15px 20px;
+                padding: 15px 0;
+                border-radius: 15px 15px;
+                text-decoration: none;
+                color: black;
+                h3
+                {
+                    margin: 0 12px;
+                }
+                p
+                {
+                    margin: 0 12px;
+                }
+            }
+        }
     }
+    & .buton
+    {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 45px 0;
+        margin: 0 0 0 0;
+        & .unstyled
+        {
+            text-decoration: none;
+            color: white;
+            font-weight:400;
+            font-size: 18px;
+            background-image: linear-gradient(175deg, #FF79DA, #9356DC);
+            box-shadow: 0px 4px 5px 2px rgb(199, 199, 199);
+            border: none;
+            padding: 15px 50px 15px 50px;
+            border-radius: 50px 50px;
+            text-align: center;
+            position: relative;
+            bottom: 40px;
+
+        }
+        & a:hover
+        {
+            transition: 1000ms;
+            transform: scale(1.05);
+            background-image: linear-gradient(175deg,#ff79d9e3,#9156d9e3);
+        }
+    } 
 }
 
-/*****************************************************************************/
-body
-{
-    background: white;
-}
-/*****************************************************************************/
 
 footer
 {
