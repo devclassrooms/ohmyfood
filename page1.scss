@@ -97,9 +97,11 @@ main
         {
             display: flex;
             flex-direction: column;
-            animation: 0.8s forwards fadein;
             h2
             {
+                border-bottom:3px solid #99E2D0;
+                width: 50px;
+                padding: 3px 0;
                 margin: 30px 20px 10px 20px;
                 color: gray;
                 font-weight:400;
@@ -129,6 +131,9 @@ main
             flex-direction: column;
             h2
             {
+                border-bottom:3px solid #99E2D0;
+                width: 50px;
+                padding: 3px 0;
                 margin: 30px 20px 10px 20px;
                 color: gray;
                 font-weight:400;
@@ -158,6 +163,9 @@ main
             flex-direction: column;
             h2
             {
+                border-bottom:3px solid #99E2D0;
+                width: 50px;
+                padding: 3px 0;
                 margin: 30px 20px 10px 20px;
                 color: gray;
                 font-weight:400;

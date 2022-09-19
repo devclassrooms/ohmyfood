@@ -78,9 +78,11 @@ main .mid .group__mid i svg {
 main .mid .entres {
   display: flex;
   flex-direction: column;
-  animation: 0.8s forwards fadein;
 }
 main .mid .entres h2 {
+  border-bottom: 3px solid #99E2D0;
+  width: 50px;
+  padding: 3px 0;
   margin: 30px 20px 10px 20px;
   color: gray;
   font-weight: 400;
@@ -105,6 +107,9 @@ main .mid .plats {
   flex-direction: column;
 }
 main .mid .plats h2 {
+  border-bottom: 3px solid #99E2D0;
+  width: 50px;
+  padding: 3px 0;
   margin: 30px 20px 10px 20px;
   color: gray;
   font-weight: 400;
@@ -129,6 +134,9 @@ main .mid .desserts {
   flex-direction: column;
 }
 main .mid .desserts h2 {
+  border-bottom: 3px solid #99E2D0;
+  width: 50px;
+  padding: 3px 0;
   margin: 30px 20px 10px 20px;
   color: gray;
   font-weight: 400;
