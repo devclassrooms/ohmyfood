@@ -21,6 +21,13 @@ body {
   margin: 0 0 0 0;
 }
 
+header .arrow svg {
+  width: 20px;
+  fill: rgb(70, 70, 70);
+  position: absolute;
+  left: 0;
+  padding: 0 0 0 30px;
+}
 header .logo {
   display: flex;
   justify-content: center;
@@ -71,6 +78,7 @@ main .mid .group__mid i svg {
 main .mid .entres {
   display: flex;
   flex-direction: column;
+  animation: 0.8s forwards fadein;
 }
 main .mid .entres h2 {
   margin: 30px 20px 10px 20px;
