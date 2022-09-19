@@ -156,6 +156,17 @@ main .Restaurants h2 {
 main .Restaurants p {
   padding: 0 4%;
 }
+main .Restaurants span {
+  position: relative;
+  bottom: 64%;
+  left: 72%;
+  background: #99E2D0;
+  color: #3c967f;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 3.5%;
+  border: transparent;
+}
 main .Restaurants h3 {
   padding: 0 4%;
   padding-top: 10px;
@@ -166,7 +177,27 @@ main .Restaurants i {
   bottom: 11%;
 }
 main .Restaurants i svg {
-  width: 20px;
+  width: 23px;
+  fill: gray;
+}
+main .Restaurants .nouveau h3 {
+  bottom: 20px;
+  position: relative;
+  padding: 0 4%;
+  padding-top: 10px;
+}
+main .Restaurants .nouveau p {
+  bottom: 20px;
+  position: relative;
+  padding: 0 4%;
+}
+main .Restaurants .nouveau i {
+  position: relative;
+  left: 88%;
+  bottom: 20%;
+}
+main .Restaurants .nouveau i svg {
+  width: 23px;
   fill: gray;
 }
 main .Restaurants a {
