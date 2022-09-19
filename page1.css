@@ -102,6 +102,10 @@ main .mid .entres .entres__group h3 {
 main .mid .entres .entres__group p {
   margin: 0 12px;
 }
+main .mid .entres span {
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
 main .mid .plats {
   display: flex;
   flex-direction: column;
@@ -129,6 +133,10 @@ main .mid .plats .plats__group h3 {
 main .mid .plats .plats__group p {
   margin: 0 12px;
 }
+main .mid .plats span {
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
 main .mid .desserts {
   display: flex;
   flex-direction: column;
@@ -155,6 +163,10 @@ main .mid .desserts .desserts__group h3 {
 }
 main .mid .desserts .desserts__group p {
   margin: 0 12px;
+}
+main .mid .desserts span {
+  font-weight: bold;
+  color: rgb(74, 74, 74);
 }
 main .buton {
   display: flex;

@@ -153,6 +153,22 @@ main .Restaurants {
 main .Restaurants h2 {
   padding: 55px 0 25px 20px;
 }
+main .Restaurants p {
+  padding: 0 4%;
+}
+main .Restaurants h3 {
+  padding: 0 4%;
+  padding-top: 10px;
+}
+main .Restaurants i {
+  position: relative;
+  left: 88%;
+  bottom: 11%;
+}
+main .Restaurants i svg {
+  width: 20px;
+  fill: gray;
+}
 main .Restaurants a {
   display: flex;
   background: white;
