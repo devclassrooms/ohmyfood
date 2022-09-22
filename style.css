@@ -171,14 +171,37 @@ main .Restaurants h3 {
   padding: 0 4%;
   padding-top: 10px;
 }
-main .Restaurants i {
+main .Restaurants article {
   position: relative;
-  left: 88%;
-  bottom: 11%;
 }
-main .Restaurants i svg {
+main .Restaurants .icon__heart {
+  position: relative;
+  /*left: 490px ;/*88%*/
+  /*padding: 0 80px;*/
+  right: 14px;
+  /*bottom: 25px;*/
+}
+main .Restaurants .icon__heart svg {
   width: 23px;
   fill: gray;
+}
+main .Restaurants .touch {
+  position: absolute;
+  right: 0;
+  margin: 0 10%;
+  bottom: 21px;
+}
+main .Restaurants .touch:hover .icon__heart svg {
+  fill: #9356DC;
+}
+main .Restaurants .touch:hover .icon__off {
+  fill: #9356DC;
+}
+main .Restaurants .icon__off {
+  position: relative;
+  fill: transparent;
+  left: 12px;
+  width: 23px;
 }
 main .Restaurants .nouveau h3 {
   bottom: 20px;
@@ -191,16 +214,14 @@ main .Restaurants .nouveau p {
   position: relative;
   padding: 0 4%;
 }
-main .Restaurants .nouveau i {
+main .Restaurants .nouveau .icon__heart {
   position: relative;
-  left: 88%;
-  bottom: 20%;
 }
-main .Restaurants .nouveau i svg {
+main .Restaurants .nouveau .icon__heart svg {
   width: 23px;
   fill: gray;
 }
-main .Restaurants a {
+main .Restaurants .card {
   display: flex;
   background: white;
   text-decoration: none;
@@ -209,7 +230,7 @@ main .Restaurants a {
   border-radius: 20px 20px;
   max-height: 250px;
 }
-main .Restaurants a:hover {
+main .Restaurants .card:hover {
   border-radius: 20px 20px;
   box-shadow: 0 0 10px 2px rgb(142, 142, 142);
   transition: 800ms;
