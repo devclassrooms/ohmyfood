@@ -109,6 +109,16 @@ main
                 font-weight:400;
                 font-size: 20px;
             }
+            #abc
+            {
+                transition: 500ms;
+                margin-right:0;
+            }
+            .prix
+            {
+                transition: 500ms;
+                margin-right: 0;
+            }
             .entres__group:hover
             {
                 #abc
@@ -116,6 +126,11 @@ main
                     transition: 500ms;
                     margin-right:0;
                     padding: 0 20px;
+                    svg
+                    {
+                        transform: rotate(360deg);
+                        transition: 700ms;
+                    }
                 }
                 .prix
                 {
@@ -135,13 +150,19 @@ main
                 color: black;
                 h3
                 {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                     position: relative;
-                    margin: 0 12px;
+                    margin: 0 50px 0 12px;
                 }
                 p
                 {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                     position: relative;
-                    margin: 0 12px;
+                    margin: 0 50px 0 12px;
                 }
             }
             #abc
@@ -169,6 +190,8 @@ main
             {
                 position: absolute;
                 right: 0;
+                bottom: 12px;
+                right: 20px;
                 /*margin: 0 50px 0 0;*/
                 font-weight: bold;
                 color: rgb(74, 74, 74);
@@ -188,6 +211,16 @@ main
                 font-weight:400;
                 font-size: 20px;
             }
+            #abc
+            {
+                transition: 500ms;
+                margin-right:0;
+            }
+            .prix
+            {
+                transition: 500ms;
+                margin-right: 0;
+            }
             .plats__group:hover
             {
                 #abc
@@ -195,6 +228,11 @@ main
                     transition: 500ms;
                     margin-right:0;
                     padding: 0 20px;
+                    svg
+                    {
+                        transform: rotate(360deg);
+                        transition: 700ms;
+                    }
                 }
                 .prix
                 {
@@ -214,13 +252,19 @@ main
                 color: black;
                 h3
                 {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                     position: relative;
-                    margin: 0 12px;
+                    margin: 0 50px 0 12px;
                 }
                 p
                 {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                     position: relative;
-                    margin: 0 12px;
+                    margin: 0 50px 0 12px;
                 }
             }
             /*span
@@ -253,6 +297,8 @@ main
             {
                 position: absolute;
                 right: 0;
+                bottom: 12px;
+                right: 20px;
                 /*margin: 0 50px 0 0;*/
                 font-weight: bold;
                 color: rgb(74, 74, 74);
@@ -272,6 +318,16 @@ main
                 font-weight:400;
                 font-size: 20px;
             }
+            #abc
+            {
+                transition: 500ms;
+                margin-right:0;
+            }
+            .prix
+            {
+                transition: 500ms;
+                margin-right: 0;
+            }
             .desserts__group:hover
             {
                 #abc
@@ -279,6 +335,11 @@ main
                     transition: 500ms;
                     margin-right:0;
                     padding: 0 20px;
+                    svg
+                    {
+                        transform: rotate(360deg);
+                        transition: 700ms;
+                    }
                 }
                 .prix
                 {
@@ -298,13 +359,19 @@ main
                 color: black;
                 h3
                 {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                     position: relative;
-                    margin: 0 12px;
+                    margin: 0 50px 0 12px;
                 }
                 p
                 {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
                     position: relative;
-                    margin: 0 12px;
+                    margin: 0 50px 0 12px;
                 }
             }
             /*span
@@ -337,6 +404,8 @@ main
             {
                 position: absolute;
                 right: 0;
+                bottom: 12px;
+                right: 20px;
                 /*margin: 0 50px 0 0;*/
                 font-weight: bold;
                 color: rgb(74, 74, 74);

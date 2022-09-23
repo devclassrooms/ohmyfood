@@ -90,10 +90,22 @@ main .mid .entres h2 {
   font-weight: 400;
   font-size: 20px;
 }
+main .mid .entres #abc {
+  transition: 500ms;
+  margin-right: 0;
+}
+main .mid .entres .prix {
+  transition: 500ms;
+  margin-right: 0;
+}
 main .mid .entres .entres__group:hover #abc {
   transition: 500ms;
   margin-right: 0;
   padding: 0 20px;
+}
+main .mid .entres .entres__group:hover #abc svg {
+  transform: rotate(360deg);
+  transition: 700ms;
 }
 main .mid .entres .entres__group:hover .prix {
   transition: 500ms;
@@ -110,12 +122,18 @@ main .mid .entres .entres__group {
   color: black;
 }
 main .mid .entres .entres__group h3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
-  margin: 0 12px;
+  margin: 0 50px 0 12px;
 }
 main .mid .entres .entres__group p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
-  margin: 0 12px;
+  margin: 0 50px 0 12px;
 }
 main .mid .entres #abc {
   height: 71px;
@@ -139,6 +157,8 @@ main .mid .entres #abc svg {
 main .mid .entres .prix {
   position: absolute;
   right: 0;
+  bottom: 12px;
+  right: 20px;
   /*margin: 0 50px 0 0;*/
   font-weight: bold;
   color: rgb(74, 74, 74);
@@ -161,10 +181,22 @@ main .mid .plats h2 {
   font-weight: 400;
   font-size: 20px;
 }
+main .mid .plats #abc {
+  transition: 500ms;
+  margin-right: 0;
+}
+main .mid .plats .prix {
+  transition: 500ms;
+  margin-right: 0;
+}
 main .mid .plats .plats__group:hover #abc {
   transition: 500ms;
   margin-right: 0;
   padding: 0 20px;
+}
+main .mid .plats .plats__group:hover #abc svg {
+  transform: rotate(360deg);
+  transition: 700ms;
 }
 main .mid .plats .plats__group:hover .prix {
   transition: 500ms;
@@ -181,12 +213,18 @@ main .mid .plats .plats__group {
   color: black;
 }
 main .mid .plats .plats__group h3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
-  margin: 0 12px;
+  margin: 0 50px 0 12px;
 }
 main .mid .plats .plats__group p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
-  margin: 0 12px;
+  margin: 0 50px 0 12px;
 }
 main .mid .plats #abc {
   height: 71px;
@@ -210,6 +248,8 @@ main .mid .plats #abc svg {
 main .mid .plats .prix {
   position: absolute;
   right: 0;
+  bottom: 12px;
+  right: 20px;
   /*margin: 0 50px 0 0;*/
   font-weight: bold;
   color: rgb(74, 74, 74);
@@ -232,10 +272,22 @@ main .mid .desserts h2 {
   font-weight: 400;
   font-size: 20px;
 }
+main .mid .desserts #abc {
+  transition: 500ms;
+  margin-right: 0;
+}
+main .mid .desserts .prix {
+  transition: 500ms;
+  margin-right: 0;
+}
 main .mid .desserts .desserts__group:hover #abc {
   transition: 500ms;
   margin-right: 0;
   padding: 0 20px;
+}
+main .mid .desserts .desserts__group:hover #abc svg {
+  transform: rotate(360deg);
+  transition: 700ms;
 }
 main .mid .desserts .desserts__group:hover .prix {
   transition: 500ms;
@@ -252,12 +304,18 @@ main .mid .desserts .desserts__group {
   color: black;
 }
 main .mid .desserts .desserts__group h3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
-  margin: 0 12px;
+  margin: 0 50px 0 12px;
 }
 main .mid .desserts .desserts__group p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   position: relative;
-  margin: 0 12px;
+  margin: 0 50px 0 12px;
 }
 main .mid .desserts #abc {
   height: 71px;
@@ -281,6 +339,8 @@ main .mid .desserts #abc svg {
 main .mid .desserts .prix {
   position: absolute;
   right: 0;
+  bottom: 12px;
+  right: 20px;
   /*margin: 0 50px 0 0;*/
   font-weight: bold;
   color: rgb(74, 74, 74);
