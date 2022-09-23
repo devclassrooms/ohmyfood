@@ -95,10 +95,12 @@ main
         }
         .entres
         {
+            position: relative;
             display: flex;
             flex-direction: column;
             h2
             {
+                position: relative;
                 border-bottom:3px solid #99E2D0;
                 width: 50px;
                 padding: 3px 0;
@@ -107,8 +109,24 @@ main
                 font-weight:400;
                 font-size: 20px;
             }
+            .entres__group:hover
+            {
+                #abc
+                {
+                    transition: 500ms;
+                    margin-right:0;
+                    padding: 0 20px;
+                }
+                .prix
+                {
+                    transition: 500ms;
+                    margin: 0 70px 0 0;
+                }
+            }
             .entres__group
             {
+                overflow: hidden;
+                position: relative;
                 background: white;
                 margin: 0 20px 15px 20px;
                 padding: 15px 0;
@@ -117,15 +135,41 @@ main
                 color: black;
                 h3
                 {
+                    position: relative;
                     margin: 0 12px;
                 }
                 p
                 {
+                    position: relative;
                     margin: 0 12px;
                 }
             }
-            span
+            #abc
             {
+                height: 71px;
+                background: #99E2D0;
+                border-radius: 0 15px 15px 0;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                margin: 0 -55px;
+                font-weight: bold;
+                color: rgb(74, 74, 74);
+                svg
+                {
+                    margin: 25px 0;
+                    background: white;
+                    border-radius: 50%;
+                    padding: 3px 3px;
+                    fill: #99E2D0;
+                    width: 17px;
+                }
+            }
+            .prix
+            {
+                position: absolute;
+                right: 0;
+                /*margin: 0 50px 0 0;*/
                 font-weight: bold;
                 color: rgb(74, 74, 74);
             }
@@ -144,8 +188,24 @@ main
                 font-weight:400;
                 font-size: 20px;
             }
+            .plats__group:hover
+            {
+                #abc
+                {
+                    transition: 500ms;
+                    margin-right:0;
+                    padding: 0 20px;
+                }
+                .prix
+                {
+                    transition: 500ms;
+                    margin: 0 70px 0 0;
+                }
+            }
             .plats__group
             {
+                overflow: hidden;
+                position: relative;
                 background: white;
                 margin: 0 20px 15px 20px;
                 padding: 15px 0;
@@ -154,15 +214,46 @@ main
                 color: black;
                 h3
                 {
+                    position: relative;
                     margin: 0 12px;
                 }
                 p
                 {
+                    position: relative;
                     margin: 0 12px;
                 }
             }
-            span
+            /*span
             {
+                font-weight: bold;
+                color: rgb(74, 74, 74);
+            }*/
+            #abc
+            {
+                height: 71px;
+                background: #99E2D0;
+                border-radius: 0 15px 15px 0;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                margin: 0 -55px;
+                font-weight: bold;
+                color: rgb(74, 74, 74);
+                svg
+                {
+                    margin: 25px 0;
+                    background: white;
+                    border-radius: 50%;
+                    padding: 3px 3px;
+                    fill: #99E2D0;
+                    width: 17px;
+                }
+            }
+            .prix
+            {
+                position: absolute;
+                right: 0;
+                /*margin: 0 50px 0 0;*/
                 font-weight: bold;
                 color: rgb(74, 74, 74);
             }
@@ -181,8 +272,24 @@ main
                 font-weight:400;
                 font-size: 20px;
             }
+            .desserts__group:hover
+            {
+                #abc
+                {
+                    transition: 500ms;
+                    margin-right:0;
+                    padding: 0 20px;
+                }
+                .prix
+                {
+                    transition: 500ms;
+                    margin: 0 70px 0 0;
+                }
+            }
             .desserts__group
             {
+                overflow: hidden;
+                position: relative;
                 background: white;
                 margin: 0 20px 15px 20px;
                 padding: 15px 0;
@@ -191,15 +298,46 @@ main
                 color: black;
                 h3
                 {
+                    position: relative;
                     margin: 0 12px;
                 }
                 p
                 {
+                    position: relative;
                     margin: 0 12px;
                 }
             }
-            span
+            /*span
             {
+                font-weight: bold;
+                color: rgb(74, 74, 74);
+            }*/
+            #abc
+            {
+                height: 71px;
+                background: #99E2D0;
+                border-radius: 0 15px 15px 0;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                margin: 0 -55px;
+                font-weight: bold;
+                color: rgb(74, 74, 74);
+                svg
+                {
+                    margin: 25px 0;
+                    background: white;
+                    border-radius: 50%;
+                    padding: 3px 3px;
+                    fill: #99E2D0;
+                    width: 17px;
+                }
+            }
+            .prix
+            {
+                position: absolute;
+                right: 0;
+                /*margin: 0 50px 0 0;*/
                 font-weight: bold;
                 color: rgb(74, 74, 74);
             }

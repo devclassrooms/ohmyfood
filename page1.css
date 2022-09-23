@@ -76,10 +76,12 @@ main .mid .group__mid i svg {
   width: 30px;
 }
 main .mid .entres {
+  position: relative;
   display: flex;
   flex-direction: column;
 }
 main .mid .entres h2 {
+  position: relative;
   border-bottom: 3px solid #99E2D0;
   width: 50px;
   padding: 3px 0;
@@ -88,7 +90,18 @@ main .mid .entres h2 {
   font-weight: 400;
   font-size: 20px;
 }
+main .mid .entres .entres__group:hover #abc {
+  transition: 500ms;
+  margin-right: 0;
+  padding: 0 20px;
+}
+main .mid .entres .entres__group:hover .prix {
+  transition: 500ms;
+  margin: 0 70px 0 0;
+}
 main .mid .entres .entres__group {
+  overflow: hidden;
+  position: relative;
   background: white;
   margin: 0 20px 15px 20px;
   padding: 15px 0;
@@ -97,18 +110,47 @@ main .mid .entres .entres__group {
   color: black;
 }
 main .mid .entres .entres__group h3 {
+  position: relative;
   margin: 0 12px;
 }
 main .mid .entres .entres__group p {
+  position: relative;
   margin: 0 12px;
 }
-main .mid .entres span {
+main .mid .entres #abc {
+  height: 71px;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 -55px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+main .mid .entres #abc svg {
+  margin: 25px 0;
+  background: white;
+  border-radius: 50%;
+  padding: 3px 3px;
+  fill: #99E2D0;
+  width: 17px;
+}
+main .mid .entres .prix {
+  position: absolute;
+  right: 0;
+  /*margin: 0 50px 0 0;*/
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
 main .mid .plats {
   display: flex;
   flex-direction: column;
+  /*span
+  {
+      font-weight: bold;
+      color: rgb(74, 74, 74);
+  }*/
 }
 main .mid .plats h2 {
   border-bottom: 3px solid #99E2D0;
@@ -119,7 +161,18 @@ main .mid .plats h2 {
   font-weight: 400;
   font-size: 20px;
 }
+main .mid .plats .plats__group:hover #abc {
+  transition: 500ms;
+  margin-right: 0;
+  padding: 0 20px;
+}
+main .mid .plats .plats__group:hover .prix {
+  transition: 500ms;
+  margin: 0 70px 0 0;
+}
 main .mid .plats .plats__group {
+  overflow: hidden;
+  position: relative;
   background: white;
   margin: 0 20px 15px 20px;
   padding: 15px 0;
@@ -128,18 +181,47 @@ main .mid .plats .plats__group {
   color: black;
 }
 main .mid .plats .plats__group h3 {
+  position: relative;
   margin: 0 12px;
 }
 main .mid .plats .plats__group p {
+  position: relative;
   margin: 0 12px;
 }
-main .mid .plats span {
+main .mid .plats #abc {
+  height: 71px;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 -55px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+main .mid .plats #abc svg {
+  margin: 25px 0;
+  background: white;
+  border-radius: 50%;
+  padding: 3px 3px;
+  fill: #99E2D0;
+  width: 17px;
+}
+main .mid .plats .prix {
+  position: absolute;
+  right: 0;
+  /*margin: 0 50px 0 0;*/
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
 main .mid .desserts {
   display: flex;
   flex-direction: column;
+  /*span
+  {
+      font-weight: bold;
+      color: rgb(74, 74, 74);
+  }*/
 }
 main .mid .desserts h2 {
   border-bottom: 3px solid #99E2D0;
@@ -150,7 +232,18 @@ main .mid .desserts h2 {
   font-weight: 400;
   font-size: 20px;
 }
+main .mid .desserts .desserts__group:hover #abc {
+  transition: 500ms;
+  margin-right: 0;
+  padding: 0 20px;
+}
+main .mid .desserts .desserts__group:hover .prix {
+  transition: 500ms;
+  margin: 0 70px 0 0;
+}
 main .mid .desserts .desserts__group {
+  overflow: hidden;
+  position: relative;
   background: white;
   margin: 0 20px 15px 20px;
   padding: 15px 0;
@@ -159,12 +252,36 @@ main .mid .desserts .desserts__group {
   color: black;
 }
 main .mid .desserts .desserts__group h3 {
+  position: relative;
   margin: 0 12px;
 }
 main .mid .desserts .desserts__group p {
+  position: relative;
   margin: 0 12px;
 }
-main .mid .desserts span {
+main .mid .desserts #abc {
+  height: 71px;
+  background: #99E2D0;
+  border-radius: 0 15px 15px 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 -55px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+main .mid .desserts #abc svg {
+  margin: 25px 0;
+  background: white;
+  border-radius: 50%;
+  padding: 3px 3px;
+  fill: #99E2D0;
+  width: 17px;
+}
+main .mid .desserts .prix {
+  position: absolute;
+  right: 0;
+  /*margin: 0 50px 0 0;*/
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
