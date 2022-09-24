@@ -9,10 +9,18 @@
 ***************************************************************/
 @keyframes load {
   0% {
-    transform: scale(0.3);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes fromBottom {
+  0% {
+    margin-bottom: 20px;
+  }
+  100% {
+    margin-bottom: 15px;
   }
 }
 body {
@@ -115,6 +123,14 @@ main .mid .entres .entres__group:hover #abc svg {
   transform: rotate(360deg);
   transition: 700ms;
 }
+main .mid .entres .entres__group:hover h3 {
+  transition: 1000ms;
+  width: calc(100% - 71px);
+}
+main .mid .entres .entres__group:hover p {
+  transition: 1000ms;
+  width: calc(100% - 145px);
+}
 main .mid .entres .entres__group:hover .prix {
   transition: 500ms;
   margin: 0 70px 0 0;
@@ -143,6 +159,14 @@ main .mid .entres .entres__group p {
   overflow: hidden;
   position: relative;
   margin: 0 50px 0 12px;
+}
+main .mid .entres .entres__group h3 {
+  transition: 1000ms;
+  width: calc(100% - 20px);
+}
+main .mid .entres .entres__group p {
+  transition: 1000ms;
+  width: calc(100% - 71px);
 }
 main .mid .entres #abc {
   height: 71px;
@@ -207,6 +231,14 @@ main .mid .plats .plats__group:hover #abc svg {
   transform: rotate(360deg);
   transition: 700ms;
 }
+main .mid .plats .plats__group:hover h3 {
+  transition: 1000ms;
+  width: calc(100% - 71px);
+}
+main .mid .plats .plats__group:hover p {
+  transition: 1000ms;
+  width: calc(100% - 145px);
+}
 main .mid .plats .plats__group:hover .prix {
   transition: 500ms;
   margin: 0 70px 0 0;
@@ -235,6 +267,14 @@ main .mid .plats .plats__group p {
   overflow: hidden;
   position: relative;
   margin: 0 50px 0 12px;
+}
+main .mid .plats .plats__group h3 {
+  transition: 1000ms;
+  width: calc(100% - 20px);
+}
+main .mid .plats .plats__group p {
+  transition: 1000ms;
+  width: calc(100% - 71px);
 }
 main .mid .plats #abc {
   height: 71px;
@@ -299,6 +339,14 @@ main .mid .desserts .desserts__group:hover #abc svg {
   transform: rotate(360deg);
   transition: 700ms;
 }
+main .mid .desserts .desserts__group:hover h3 {
+  transition: 1000ms;
+  width: calc(100% - 71px);
+}
+main .mid .desserts .desserts__group:hover p {
+  transition: 1000ms;
+  width: calc(100% - 145px);
+}
 main .mid .desserts .desserts__group:hover .prix {
   transition: 500ms;
   margin: 0 70px 0 0;
@@ -327,6 +375,14 @@ main .mid .desserts .desserts__group p {
   overflow: hidden;
   position: relative;
   margin: 0 50px 0 12px;
+}
+main .mid .desserts .desserts__group h3 {
+  transition: 1000ms;
+  width: calc(100% - 20px);
+}
+main .mid .desserts .desserts__group p {
+  transition: 1000ms;
+  width: calc(100% - 71px);
 }
 main .mid .desserts #abc {
   height: 71px;
@@ -382,42 +438,6 @@ main .buton a:hover {
   background-image: linear-gradient(175deg, rgba(255, 121, 217, 0.8901960784), rgba(145, 86, 217, 0.8901960784));
 }
 
-#a1 {
-  animation: load 1s;
-}
-
-#a2 {
-  animation: load 1.2s;
-}
-
-#a3 {
-  animation: load 1.4s;
-}
-
-#a4 {
-  animation: load 1.6s;
-}
-
-#a5 {
-  animation: load 1.8s;
-}
-
-#a6 {
-  animation: load 2s;
-}
-
-#a7 {
-  animation: load 2.2s;
-}
-
-#a8 {
-  animation: load 2.4s;
-}
-
-#a9 {
-  animation: load 2.6s;
-}
-
 footer {
   background: rgb(58, 58, 58);
   padding: 10px 20px 20px 20px;
@@ -443,6 +463,46 @@ footer .footer__link svg {
   width: 12px;
   padding: 0 4px;
   fill: white;
+}
+
+#a1 {
+  animation: load 1s, fromBottom 1s;
+}
+
+#a2 {
+  animation: load 1.5s, fromBottom 1.5s;
+}
+
+#a3 {
+  animation: load 2s, fromBottom 2s;
+}
+
+#a4 {
+  animation: load 2.5s, fromBottom 2.5s;
+}
+
+#a5 {
+  animation: load 3s, fromBottom 3s;
+}
+
+#a6 {
+  animation: load 3.5s, fromBottom 3.5s;
+}
+
+#a7 {
+  animation: load 4s, fromBottom 4s;
+}
+
+#a8 {
+  animation: load 4.5s, fromBottom 4.5s;
+}
+
+#a9 {
+  animation: load 5s, fromBottom 5s;
+}
+
+#a10 {
+  animation: load 5.5s, fromBottom 5.5s;
 }
 
 /*# sourceMappingURL=page1.css.map */

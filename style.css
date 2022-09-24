@@ -157,9 +157,10 @@ main .Restaurants p {
   padding: 0 4%;
 }
 main .Restaurants span {
-  position: relative;
-  bottom: 64%;
-  left: 72%;
+  position: absolute;
+  right: 0;
+  top: 20px;
+  margin: 0 20px;
   background: #99E2D0;
   color: #3c967f;
   font-weight: bold;
@@ -204,13 +205,11 @@ main .Restaurants .icon__off {
   width: 23px;
 }
 main .Restaurants .nouveau h3 {
-  bottom: 20px;
   position: relative;
   padding: 0 4%;
   padding-top: 10px;
 }
 main .Restaurants .nouveau p {
-  bottom: 20px;
   position: relative;
   padding: 0 4%;
 }
