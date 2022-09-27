@@ -505,4 +505,19 @@ footer .footer__link svg {
   animation: load 5.5s, fromBottom 5.5s;
 }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.group__mid #iconn3 .icon__off2 {
+  fill: transparent;
+}
+
+.group__mid #iconn3:hover {
+  cursor: pointer;
+}
+.group__mid #iconn3:hover .icon__off2 {
+  fill: #9356DC;
+}
+
 /*# sourceMappingURL=page1.css.map */
