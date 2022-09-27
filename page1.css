@@ -520,4 +520,42 @@ h1 {
   fill: #9356DC;
 }
 
+.group__mid #iconn1 .icon__off2 {
+  fill: transparent;
+}
+.group__mid #iconn2 .icon__off2 {
+  fill: transparent;
+}
+.group__mid #iconn3 .icon__off2 {
+  fill: transparent;
+}
+.group__mid #iconn4 .icon__off2 {
+  fill: transparent;
+}
+
+.group__mid #iconn1:hover {
+  cursor: pointer;
+}
+.group__mid #iconn1:hover .icon__off2 {
+  fill: #9356DC;
+}
+.group__mid #iconn2:hover {
+  cursor: pointer;
+}
+.group__mid #iconn2:hover .icon__off2 {
+  fill: #9356DC;
+}
+.group__mid #iconn3:hover {
+  cursor: pointer;
+}
+.group__mid #iconn3:hover .icon__off2 {
+  fill: #9356DC;
+}
+.group__mid #iconn4:hover {
+  cursor: pointer;
+}
+.group__mid #iconn4:hover .icon__off2 {
+  fill: #9356DC;
+}
+
 /*# sourceMappingURL=page1.css.map */

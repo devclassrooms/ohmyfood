@@ -630,3 +630,71 @@ h1
         }
     }
 }
+
+.group__mid
+{
+    #iconn1
+    {
+        .icon__off2
+        {
+            fill: transparent;
+        }
+    }
+    #iconn2
+    {
+        .icon__off2
+        {
+            fill:transparent;
+        }
+    }
+    #iconn3
+    {
+        .icon__off2
+        {
+            fill:transparent;
+        }
+    }
+    #iconn4
+    {
+        .icon__off2
+        {
+            fill:transparent;
+        }
+    }
+}
+
+.group__mid
+{
+    #iconn1:hover
+    {
+        cursor: pointer;
+        .icon__off2
+        {
+            fill:#9356DC;
+        }
+    }
+    #iconn2:hover
+    {
+        cursor: pointer;
+        .icon__off2
+        {
+            fill:#9356DC;
+        }
+    }
+    #iconn3:hover
+    {
+        cursor: pointer;
+        .icon__off2
+        {
+            fill:#9356DC;
+        }
+    }
+    #iconn4:hover
+    {
+        cursor: pointer;
+        .icon__off2
+        {
+            fill:#9356DC;
+        }
+    }
+}
