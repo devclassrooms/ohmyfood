@@ -106,7 +106,7 @@ main .mid .entres h2 {
   font-weight: 400;
   font-size: 20px;
 }
-main .mid .entres #abc {
+main .mid .entres .abc {
   transition: 500ms;
   margin-right: 0;
 }
@@ -114,12 +114,12 @@ main .mid .entres .prix {
   transition: 500ms;
   margin-right: 0;
 }
-main .mid .entres .entres__group:hover #abc {
+main .mid .entres .entres__group:hover .abc {
   transition: 500ms;
   margin-right: 0;
   padding: 0 20px;
 }
-main .mid .entres .entres__group:hover #abc svg {
+main .mid .entres .entres__group:hover .abc svg {
   transform: rotate(360deg);
   transition: 700ms;
 }
@@ -168,7 +168,7 @@ main .mid .entres .entres__group p {
   transition: 1000ms;
   width: calc(100% - 71px);
 }
-main .mid .entres #abc {
+main .mid .entres .abc {
   height: 71px;
   background: #99E2D0;
   border-radius: 0 15px 15px 0;
@@ -179,7 +179,7 @@ main .mid .entres #abc {
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
-main .mid .entres #abc svg {
+main .mid .entres .abc svg {
   margin: 25px 0;
   background: white;
   border-radius: 50%;
@@ -214,7 +214,7 @@ main .mid .plats h2 {
   font-weight: 400;
   font-size: 20px;
 }
-main .mid .plats #abc {
+main .mid .plats .abc {
   transition: 500ms;
   margin-right: 0;
 }
@@ -222,12 +222,12 @@ main .mid .plats .prix {
   transition: 500ms;
   margin-right: 0;
 }
-main .mid .plats .plats__group:hover #abc {
+main .mid .plats .plats__group:hover .abc {
   transition: 500ms;
   margin-right: 0;
   padding: 0 20px;
 }
-main .mid .plats .plats__group:hover #abc svg {
+main .mid .plats .plats__group:hover .abc svg {
   transform: rotate(360deg);
   transition: 700ms;
 }
@@ -276,7 +276,7 @@ main .mid .plats .plats__group p {
   transition: 1000ms;
   width: calc(100% - 71px);
 }
-main .mid .plats #abc {
+main .mid .plats .abc {
   height: 71px;
   background: #99E2D0;
   border-radius: 0 15px 15px 0;
@@ -287,7 +287,7 @@ main .mid .plats #abc {
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
-main .mid .plats #abc svg {
+main .mid .plats .abc svg {
   margin: 25px 0;
   background: white;
   border-radius: 50%;
@@ -322,7 +322,7 @@ main .mid .desserts h2 {
   font-weight: 400;
   font-size: 20px;
 }
-main .mid .desserts #abc {
+main .mid .desserts .abc {
   transition: 500ms;
   margin-right: 0;
 }
@@ -330,12 +330,12 @@ main .mid .desserts .prix {
   transition: 500ms;
   margin-right: 0;
 }
-main .mid .desserts .desserts__group:hover #abc {
+main .mid .desserts .desserts__group:hover .abc {
   transition: 500ms;
   margin-right: 0;
   padding: 0 20px;
 }
-main .mid .desserts .desserts__group:hover #abc svg {
+main .mid .desserts .desserts__group:hover .abc svg {
   transform: rotate(360deg);
   transition: 700ms;
 }
@@ -384,7 +384,7 @@ main .mid .desserts .desserts__group p {
   transition: 1000ms;
   width: calc(100% - 71px);
 }
-main .mid .desserts #abc {
+main .mid .desserts .abc {
   height: 71px;
   background: #99E2D0;
   border-radius: 0 15px 15px 0;
@@ -395,7 +395,7 @@ main .mid .desserts #abc {
   font-weight: bold;
   color: rgb(74, 74, 74);
 }
-main .mid .desserts #abc svg {
+main .mid .desserts .abc svg {
   margin: 25px 0;
   background: white;
   border-radius: 50%;
