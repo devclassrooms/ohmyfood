@@ -520,42 +520,20 @@ h1 {
   fill: #9356DC;
 }
 
-.group__mid #iconn1 .icon__off2 {
-  fill: transparent;
-}
-.group__mid #iconn2 .icon__off2 {
-  fill: transparent;
-}
-.group__mid #iconn3 .icon__off2 {
-  fill: transparent;
-}
-.group__mid #iconn4 .icon__off2 {
-  fill: transparent;
+.group__mid .fas {
+  font-size: 30px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
-.group__mid #iconn1:hover {
+.group__mid .fas:hover {
   cursor: pointer;
-}
-.group__mid #iconn1:hover .icon__off2 {
-  fill: #9356DC;
-}
-.group__mid #iconn2:hover {
-  cursor: pointer;
-}
-.group__mid #iconn2:hover .icon__off2 {
-  fill: #9356DC;
-}
-.group__mid #iconn3:hover {
-  cursor: pointer;
-}
-.group__mid #iconn3:hover .icon__off2 {
-  fill: #9356DC;
-}
-.group__mid #iconn4:hover {
-  cursor: pointer;
-}
-.group__mid #iconn4:hover .icon__off2 {
-  fill: #9356DC;
+  font-size: 30px;
+  color: transparent;
+  background-image: linear-gradient(175deg, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 /*# sourceMappingURL=page1.css.map */
