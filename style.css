@@ -180,10 +180,7 @@ main .Restaurants article {
 }
 main .Restaurants .icon__heart {
   position: relative;
-  /*left: 490px ;/*88%*/
-  /*padding: 0 80px;*/
   right: 14px;
-  /*bottom: 25px;*/
 }
 main .Restaurants .icon__heart svg {
   width: 23px;
@@ -194,17 +191,6 @@ main .Restaurants .touch {
   right: 0;
   margin: 0 10%;
   bottom: 21px;
-}
-main .Restaurants .touch:hover {
-  /*.fas .fa-heart
-  {
-      color: rgba(0,0,0,0);
-      background-image: linear-gradient(#9356DC, #FF79DA);
-      background-clip: text;
-      -webkit-background-clip: text;
-      opacity: 0;
-      transition: all 400ms;
-  }*/
 }
 main .Restaurants .touch:hover .icon__heart svg {
   fill: transparent;
@@ -217,10 +203,8 @@ main .Restaurants .touch:hover .fas {
 }
 main .Restaurants .fas {
   position: relative;
-  /*fill: transparent;*/
   color: transparent;
   left: 12px;
-  width: 23px;
 }
 main .Restaurants .nouveau h3 {
   position: relative;

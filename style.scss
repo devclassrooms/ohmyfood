@@ -219,10 +219,7 @@ main
         & .icon__heart
         {
             position: relative;
-            /*left: 490px ;/*88%*/
-            /*padding: 0 80px;*/
             right: 14px;
-            /*bottom: 25px;*/
             svg
             {
                 width: 23px;
@@ -250,23 +247,12 @@ main
                 -webkit-background-clip: text;
                 
             }
-            /*.fas .fa-heart
-            {
-                color: rgba(0,0,0,0);
-                background-image: linear-gradient(#9356DC, #FF79DA);
-                background-clip: text;
-                -webkit-background-clip: text;
-                opacity: 0;
-                transition: all 400ms;
-            }*/
         }
-        & .fas /*.icon__off*/
+        & .fas
         {
             position: relative;
-            /*fill: transparent;*/
             color: transparent;
             left: 12px;
-            width: 23px;
         }
         .nouveau
         {
@@ -291,7 +277,7 @@ main
                 }
             }
         }
-        & .card /**a**/
+        & .card
         {            
             display: flex;
             background: white;
