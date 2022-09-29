@@ -127,6 +127,9 @@ main .fonctionnement .under__fonctionnement i {
 main .fonctionnement a:hover {
   background: rgba(146, 86, 220, 0.1176470588);
 }
+main .fonctionnement a:hover svg {
+  fill: #9356DC;
+}
 main .fonctionnement .nbr {
   border: none;
   background: #9356DC;
@@ -192,15 +195,30 @@ main .Restaurants .touch {
   margin: 0 10%;
   bottom: 21px;
 }
+main .Restaurants .touch:hover {
+  /*.fas .fa-heart
+  {
+      color: rgba(0,0,0,0);
+      background-image: linear-gradient(#9356DC, #FF79DA);
+      background-clip: text;
+      -webkit-background-clip: text;
+      opacity: 0;
+      transition: all 400ms;
+  }*/
+}
 main .Restaurants .touch:hover .icon__heart svg {
-  fill: #9356DC;
-}
-main .Restaurants .touch:hover .icon__off {
-  fill: #9356DC;
-}
-main .Restaurants .icon__off {
-  position: relative;
   fill: transparent;
+}
+main .Restaurants .touch:hover .fas {
+  color: transparent;
+  background-image: linear-gradient(175deg, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+main .Restaurants .fas {
+  position: relative;
+  /*fill: transparent;*/
+  color: transparent;
   left: 12px;
   width: 23px;
 }
@@ -267,6 +285,12 @@ footer .footer__link svg {
   width: 12px;
   padding: 0 4px;
   fill: white;
+}
+
+.fas {
+  position: absolute;
+  right: 14px;
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
